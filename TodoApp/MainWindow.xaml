@@ -32,6 +32,7 @@
         <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="Auto" >
             <StackPanel x:Name="TodoList" Background="#FFC3D6C5"></StackPanel>
         </ScrollViewer>
+        <TextBlock HorizontalAlignment="Left" Margin="-274,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
