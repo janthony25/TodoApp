@@ -10,5 +10,25 @@
     
     <Grid>
 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="10" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="75" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="10" />
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="5" Grid.Column="1" Content="Create Todo" Background="#FFDCE2AC" Foreground="Black" FontSize="20" FontWeight="Bold"/>
+
+        <TextBox Grid.Row="3" Grid.Column="1" Background="#FFE2DCDC" Foreground="Black" />
+
     </Grid>
 </Window>
